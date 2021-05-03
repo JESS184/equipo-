@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+    /* Jess Aguilar 
+    Equipo Los ocho tristes burros
+    29 abr 21
+    Programa para propina de 15%*/
+
+    float cuenta, propina, operacion, total;
+    propina = .15;
+    printf("\n ¿Quieres saber cuanto pagar en total por tu cuenta agregando una propina del 15 porciento?");
+    printf("\n ¿Cuanto pagaras por tu cuenta?");
+    scanf("%f" , &cuenta);
+    operacion = cuenta * propina;
+    total = operacion + cuenta;
+    printf("\n Usted debera pagar la siguiente cantidad: %f", total);
+    return 0;
+}
