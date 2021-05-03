@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    /*Jess Aguilar 
+    Equipo Los ocho tristes burros 
+    29 abr 21
+    Programa chalerstoom*/
+
+    float chalecos, personas, precio, total;
+    precio = 20;
+    printf("\n Bienvenido a chalerstoom solo manejamos chalecos medianos");
+    printf("\n Para cuantas personas necesita los chalecos");
+    scanf("%f" , &chalecos);
+    total = personas * precio;
+    printf("\n El monto a pagar sera el siguiente: %f" , total);
+    return 0;
+}
